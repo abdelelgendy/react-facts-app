@@ -1,12 +1,10 @@
-import { Fragment } from "react"
 import reactLogo from "./assets/react.svg"
-
+import Header from "./Header";
 function Page() {
     return (
-        <Fragment>
-            <header>
-                <img src={reactLogo} width="40px" alt="React logo" />
-            </header>
+        <>
+
+            <Header/>
             <main>
                 <h1>Reason I am excited to learn React</h1>
                 <ol>
@@ -17,7 +15,7 @@ function Page() {
             <footer>
                 <small>© 2024 abdel development. All rights reserved.</small>
             </footer>
-            </Fragment>
+            </>
         );
     }
     
