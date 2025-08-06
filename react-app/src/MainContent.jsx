@@ -2,11 +2,15 @@
 
 export default function MainContent(){
     return(
-        <main>
-                <h1>Reason I am excited to learn React</h1>
+        <main className="main-container">
+                <h1>Reasons I am excited 
+                    to learn React</h1>
                 <ol>
-                    <li>React is a popular library, so I will be able to fit in with all the coolest devs out there! 😎</li>
-                    <li>I am more likely to get a job as a front end developer if I know React</li>
+                    <li>React has a component-based architecture that makes code more reusable and maintainable</li>
+                    <li>It has a large and active community with extensive documentation and resources</li>
+                    <li>React is widely used by major companies like Facebook, Netflix, and Airbnb</li>
+                    <li>The virtual DOM makes React applications fast and efficient</li>
+                    <li>React skills are in high demand in the job market</li>
                 </ol>
         </main>
     )
