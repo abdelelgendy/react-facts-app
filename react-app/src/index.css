@@ -60,6 +60,13 @@ li {
 .nav-list-item{
     margin-left: clamp(8px, 2vw, 15px);
     font-size: clamp(1rem, 3vw, 1.25rem);
+
+}
+.nav-list-item:hover{
+    color: antiquewhite;
+    text-shadow: 2px 3px 2px black;
+    cursor: grab;
+
 }
 .react-logo{
     width: clamp(40px, 8vw, 55px);
